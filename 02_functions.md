@@ -261,5 +261,5 @@
 
 ---
 back to [Table of Content](tableOfContent.md)  
-go to [Functions](functions.md)  
-go to [The Tricky Bits](bits.md)
+go to [Functions](02_functions.md)  
+go to [The Tricky Bits](03_bits.md)
