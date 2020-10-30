@@ -257,3 +257,9 @@
       }, 1000);
       ```
       this will run after 1000 ms 
+
+
+---
+back to [Table of Content](tableOfContent.md)  
+go to [Functions](functions.md)  
+go to [The Tricky Bits](bits.md)

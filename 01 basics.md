@@ -147,3 +147,6 @@ const cool = true;
   // ===
   "10" === 10 // result is false, compares value and type of (first one is string, second one is number)
   ```  
+
+back to [Table of Content](tableOfContent.md)  
+go to [Functions](functions.md)  
