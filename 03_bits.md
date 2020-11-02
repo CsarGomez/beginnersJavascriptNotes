@@ -135,5 +135,5 @@
     the closure is the fact that even though the parent function is done still maintain the variable in memory and you are able to access at later time.  
 ---
 back to [Table of Content](tableOfContent.md)  
-go to [Functions](02_functions.md)  
-go to [The DOM](04_dom.md)
+previous [Functions](02_functions.md)  
+next [The DOM](04_dom.md)
