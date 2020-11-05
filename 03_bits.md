@@ -1,9 +1,9 @@
 <a name="bits"></a>  
-## **The tricky bits**
+# **The tricky bits**
 ---
 
 <a name="scope"></a> 
-- ## Scope  
+## **Scope**
   <a name="globalVariables"></a>
   - ### Global variables  
     when variable is created a variable not inside a function,  not inside a module, not inside if statement, you can access   them from any other javascript that's running on the page   via script tag or console.
@@ -83,56 +83,59 @@
     }
     ```
 <a name="hoisting"></a> 
-- ## Hoisting
+## **Hoisting**
   Hoisting allows you to access functions and variables before they have been created, there´s two things in javascript that are hoited:
-    - functions declarations
+  - functions declarations
 
-        ```js
-          sayHi();
+      ```js
+        sayHi();
 
-          function sayHi(){
-            console.log('Hey!');
-            console.log(add(10, 2));
-          }
+        function sayHi(){
+          console.log('Hey!');
+          console.log(add(10, 2));
+        }
 
-          function add(a, b){
-            return a + b;
-          }
-        ```
-    - variable declarations  
-        javascript hoist variable declarations, but will not hoist the actual setting value:
+        function add(a, b){
+          return a + b;
+        }
+      ```
+  - variable declarations  
+      javascript hoist variable declarations, but will not hoistthe actual setting value:
 
-        ```js
-        // this will give you undefined
-        console.log(age);
-        var age = 10;
+      ```js
+      // this will give you undefined
+      console.log(age);
+      var age = 10;
 
-        //Reference error if you use let (age is not defined)
-        console.log(age);
-        let age = 10;
-        ```
+      //Reference error if you use let (age is not defined)
+      console.log(age);
+      let age = 10;
+       ```
 
 <a name="closures"></a> 
-  - ## Closures 
-    Closures are the ability for a child function or inner function (child scope) to access variables from a higher level scope (parent scope) even after the functions have been called or closed  
+  ## **Closures **
+  Closures are the ability for a child function or inner function (child scope) to access variables from a higher level scope (parent scope) even after the functions have been called or closed  
 
-    ```js
-      function parentScope(){
-        const partetVar = 'I am the parent variable';
-        function childScope(){
-          const childVar = 'I am the child variable';
-          console.log(childVar);
-          console.log(paretVar)
-        }
-        return childScope;
+  ```js
+    function parentScope(){
+      const partetVar = 'I am the parent variable';
+      function childScope(){
+        const childVar = 'I am the child variable';
+        console.log(childVar);
+        console.log(paretVar)
       }
+      return childScope;
+    }
 
-      const childFinal = parentScope();
-      childFinal();
-    ```
+    const childFinal = parentScope();
+    childFinal();
+  ```
 
-    in the example below, you stick a function into a variable and at a later point you have access to that child function.
-    the closure is the fact that even though the parent function is done still maintain the variable in memory and you are able to access at later time.  
+  in the example below, you stick a function into a variable and at a later point you have access to that child function.
+  the closure is the fact that even though the parent function is done still maintain the variable in memory and you are able to access at later time.  
+  
+<br>
+
 ---
 back to [Table of Content](tableOfContent.md)  
 previous [Functions](02_functions.md)  

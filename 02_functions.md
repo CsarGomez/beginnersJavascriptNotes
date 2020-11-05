@@ -1,10 +1,10 @@
 
 <a name="functions"></a>  
-## **Functions**
+# **Functions**
 ---
 
 <a name="buildFunctions"></a>
-- ## Build functions
+## **Build functions**
   Functions can do anything, they´re group togeher set of instructions, often taking in values, doing some work and then returning a new value or set of values.  
 
   Functions are create or defined and then they later can be call.
@@ -30,7 +30,7 @@
   ```
 
 <a name="parametersArguments"></a>
-- ## Parameters and arguments
+## **Parameters and arguments**
   ![parameters and arguments](function-definition.jpg)
   
   function using parameters and arguments
@@ -87,7 +87,7 @@
   the undefined will fallback to the defaul value of 0.13 for taxRate
 
 <a name="waysFunctions"></a>
-- ## Different ways to declare functions
+## **Different ways to declare functions**
   
   Javascript functions are values in themself that can be stored into variables or can be passed into other fucntions.
 
@@ -234,9 +234,9 @@
       ```
 
   <a name="callback"></a>
-  - ### Callback functions
+  ## **Callback functions**
 
-    - **click callback function**
+  - **click callback function**
 
       ```js
       const button = document.querySelector('.clickMe');
@@ -249,7 +249,7 @@
       ```
       is a function passed into other funcion, that then can  be   called by the browser at a later point.
 
-    - **timer callback function**
+  - **timer callback function**
 
       ```js
       setTimeout(function()){
@@ -258,6 +258,7 @@
       ```
       this will run after 1000 ms 
 
+<br>
 
 ---
 back to [Table of Content](tableOfContent.md)  

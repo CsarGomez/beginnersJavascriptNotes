@@ -1,9 +1,9 @@
 <a name="basics.md"></a>
-## **The Basics**
+# **The Basics**
 ---
 
 <a name="loading"></a>
-## Loading and running javascript:
+## **Loading and running javascript**
 
 add `<script>` tag just before the `</body>` tag.
 
@@ -15,7 +15,7 @@ add `<script>` tag just before the `</body>` tag.
 ```
 
 <a name="variables"></a>
-## Variables:
+## **Variables**
 
 - **var** (_value can be updated_)
 - **let** (_value can be updated_)
@@ -148,5 +148,8 @@ const cool = true;
   "10" === 10 // result is false, compares value and type of (first one is string, second one is number)
   ```  
 
+<br>
+
+---
 back to [Table of Content](tableOfContent.md)  
 next [Functions](02_functions.md)  
