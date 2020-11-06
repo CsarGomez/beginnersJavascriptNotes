@@ -194,6 +194,110 @@ this is how many pizzas i ate! 🍕 -------> node
   - Nodes: can be anything  
   [Nodes methods and properties](https://developer.mozilla.org/en-US/docs/Web/API/Node)
 
+<a name="workingWithClasses"></a> 
+## **Working with classes**
+
+When you select an element there is a classList attributes on that, there are some mothods for getting all of the classes as well as removing and adding multiple classes.
+
+suppose we have the following HTML:
+
+```html
+<img class="nice" src="https://picsum.photos/600">
+```
+
+now we have to select it:
+
+```js
+const pic = document.querySelector('.nice');
+
+console.log(pic.classList)
+```
+
+If you look the output you will see the _prototype_ with the methods that you're able to call, like:  
+  - add
+  - contains
+  - remove
+  - toggle
+
+Example:  
+let's add some CSS to the image tag, and do some animation to that image
+
+```css
+img {
+  transition: all 0.2s;
+}
+.round {
+  border-radius: 50%;
+}
+```
+
+Now we will add the class of toggle to the image
+
+```js
+const pic = document.querySelector('.nice');
+
+function toggleRound() {
+  pic.classList.toggle('round');
+}
+
+// we are not learing about Event Listeners, it will be in the next module, this is just for the animation to work when user click it
+
+pic.addEventListener('click', toggleRound)
+```
+
+You can find the example [here](https://codepen.io/cgope/pen/eYzLEOw?editors=0110)
+
+<a name="BuildInAndCustomDataAttributes"></a> 
+## **Build in and custom data attributes**
+
+Attributes are anything provided to an element as an additional information, like classes, source, alternative, etc..
+
+we will add the alternative (```alt```) attribute to the following image using javascript
+
+```html
+<img class="nice" src="https://picsum.photos/600">
+```
+
+```js
+const pic = document.querySelector('.nice');
+
+pic.alt = 'Cute'; // setter
+console.log(pic.alt); // getter
+```
+
+Some of the attributes are only _getters_ like ```naturalWidth``` , other can be _getters_ and _setters_
+
+The other way to get or set the attributes is by using ```getAttribute()``` or ```getAttribute()```
+
+```js
+pic.setAttribute('alt', 'Really cute'); // setter
+
+console.log(pic.getAttribute('alt')); // getter
+```
+
+The difference between these methods is that ```setAttribute``` and ```getAttribute``` is that this method will also work for non-standard attributes.
+
+For non-standard or custom attributes you have to use what are called _data attributes_
+
+```html
+<img class="custom" data-name="name" src="https://picsum.photos/600">
+
+<img data-description="description" src="https://picsum.photos/600">
+```
+
+You can access into _data-attributes_ by using ```dataset```:
+
+```js
+const custom = document.querySelector(.custom);
+
+console.log(custom.dataset)
+```
+
+```dataset``` will gives you an object with all the properties values that you have.
+
+
+
+
 
 
 <br>

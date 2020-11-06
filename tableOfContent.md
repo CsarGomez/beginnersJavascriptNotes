@@ -34,3 +34,5 @@
 ## **Module #4 [The DOM](04_dom.md)**
   * [Selecting elements](04_dom.md#selectElements)
   * [Elements properties and methods](04_dom.md#elementPropertiesAndMethods)
+  * [Working with classes](04_dom.md#workingWithClasses)
+  * [Build in and custom data attributes](04_dom.md#BuildInAndCustomDataAttributes)
