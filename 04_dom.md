@@ -20,6 +20,8 @@ The browser turns your html into something that is called __DOM__ (_Document Obj
   Is in a higher level than the window.
   it gives you information about the device itself, like battery, webcam, audio access, gps coordinates, etc.  
 
+<br>
+
 <a name="selectElements"></a> 
 ## **Selecting elements**
 When you need to be able to access the specific elemts on the page, like H2 tag (```<h2>```), a div tag (```<div>```), a buttton (```<button>```) or an image (```<img>```) you need to select hem first, and then you can add content, change content, listen for cliecks, you can do anything you want with it.
@@ -83,6 +85,7 @@ We can also have old to select elements from the DOM like:
 - getElementsByClassName  
 - getElementsByTagName
 
+<br>
 
 <a name="elementPropertiesAndMethods"></a> 
 ## **Element properties and methods**
@@ -194,6 +197,8 @@ this is how many pizzas i ate! 🍕 -------> node
   - Nodes: can be anything  
   [Nodes methods and properties](https://developer.mozilla.org/en-US/docs/Web/API/Node)
 
+<br>
+
 <a name="workingWithClasses"></a> 
 ## **Working with classes**
 
@@ -247,6 +252,8 @@ pic.addEventListener('click', toggleRound)
 
 You can find the example [here](https://codepen.io/cgope/pen/eYzLEOw?editors=0110)
 
+<br>
+
 <a name="BuildInAndCustomDataAttributes"></a> 
 ## **Build in and custom data attributes**
 
@@ -295,8 +302,56 @@ console.log(custom.dataset)
 
 ```dataset``` will gives you an object with all the properties values that you have.
 
+<br>
 
+<a name="CreatingHTML"></a> 
+## **Creating HTML**
 
+The man way to create HTML in javascript is ```document.createElement``` but this only create the element (in memory) and dont put it on the page.  
+Also you can't add classes or attributes, you have to do it in the way we learn before with ```textContent```.
+To put the emelents into the DOM, we can add it to the page with API called ```appendChild```.
+
+**Example:** Create elements (```p```, ```img```, and a ```div```), add classes and attributes and add it to the page:
+
+```js
+//create a paragraph
+const myParagraph = document.createElement('p');
+myParagraph.textContent = 'I am a p';
+myParagraph.classList.add('special');
+
+//create an image
+const myImage = document.createelement('img');
+myImage.src = 'https://picsum.photos/500';
+myImage.alt = 'Nice photo';
+
+//create a div
+const myDiv = document.createElement('div');
+myDiv.classList.add('wrapper');
+
+//add it to the page
+myDiv.appendChild(myImage);
+myDiv.appendChild(myParagraph);
+document.body.appendChild(myDiv);
+```
+> **Note:** is not necesary to use querySelector to grab the body, this is because the document gives us a reference to the body, this works for the popular elements 
+
+Every time you use ```appendChild``` what you're doing is modifying the DOM, and that causes the reflow, meaning that the browser have to repaint what is on the actual page.
+
+There's another API to add elements to the page called ```insertAdjacentElemet```, that can takes 4 different positions:
+
+- beforebegin: before the targetElement itself
+- afterbegin: inside the targetElement, before its first child
+- beforeend: inside the targetElement, after its first chld
+- afterend: after the targetElement itself 
+
+Lets add a header to the example before:
+
+```js
+const heading = document.createElement('h2');
+heading.textContent = 'Cool things';
+
+myDiv.insertAdjacentElement('afterbegin',heading);
+```
 
 
 

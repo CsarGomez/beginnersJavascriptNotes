@@ -80,8 +80,11 @@
         cool = true;
       }
       return cool;
-    }
+    }   
     ```
+
+<br>
+
 <a name="hoisting"></a> 
 ## **Hoisting**
   Hoisting allows you to access functions and variables before they have been created, there´s two things in javascript that are hoited:
@@ -112,8 +115,10 @@
       let age = 10;
        ```
 
+<br>
+
 <a name="closures"></a> 
-  ## **Closures **
+  ## **Closures**
   Closures are the ability for a child function or inner function (child scope) to access variables from a higher level scope (parent scope) even after the functions have been called or closed  
 
   ```js

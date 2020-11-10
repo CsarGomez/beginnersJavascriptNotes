@@ -36,3 +36,4 @@
   * [Elements properties and methods](04_dom.md#elementPropertiesAndMethods)
   * [Working with classes](04_dom.md#workingWithClasses)
   * [Build in and custom data attributes](04_dom.md#BuildInAndCustomDataAttributes)
+  * [Creating HTML](04_dom.md#CreatingHTML)

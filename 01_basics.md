@@ -14,6 +14,8 @@ add `<script>` tag just before the `</body>` tag.
 </body>
 ```
 
+<br>
+
 <a name="variables"></a>
 ## **Variables**
 

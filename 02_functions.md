@@ -29,6 +29,8 @@
   const myTotal = calculateBill();
   ```
 
+<br>
+
 <a name="parametersArguments"></a>
 ## **Parameters and arguments**
   ![parameters and arguments](function-definition.jpg)
@@ -85,6 +87,8 @@
   calculateBill(100, undefined, 0.2);
   ```
   the undefined will fallback to the defaul value of 0.13 for taxRate
+
+<br>
 
 <a name="waysFunctions"></a>
 ## **Different ways to declare functions**
@@ -232,6 +236,8 @@
       ```js
       sayHi() => `Hey! wes`;
       ```
+
+<br>
 
   <a name="callback"></a>
   ## **Callback functions**
