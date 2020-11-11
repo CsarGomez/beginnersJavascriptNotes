@@ -49,13 +49,13 @@ According to the following HTML we can grab divs, clases, or do parent-child sel
 <div class="items">
 
   <div class="item item1">
-	  <img src="http://img1.com" >
+	<img src="http://img1.com" >
   </div>
 
   <div class="item">
-	  <img src="http://img2.link" >
+	<img src="http://img2.link" >
   </div>
-  
+
 </div>
 ```
 selecting a div with class of item:
