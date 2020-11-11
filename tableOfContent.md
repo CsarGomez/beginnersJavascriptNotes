@@ -37,3 +37,5 @@
   * [Working with classes](04_dom.md#workingWithClasses)
   * [Build in and custom data attributes](04_dom.md#BuildInAndCustomDataAttributes)
   * [Creating HTML](04_dom.md#CreatingHTML)
+  * [HTML from strings and XSS](04_dom.md#HTMLFromStringsAndXSS)
+  * [Traversing and removing nodes](04_dom.md#TraversingAndRemovingNodes)

@@ -353,6 +353,73 @@ heading.textContent = 'Cool things';
 myDiv.insertAdjacentElement('afterbegin',heading);
 ```
 
+<br>
+
+<a name="HTMLFromStringsAndXSS"></a> 
+## **HTML from strings and XSS**
+
+This is a different approach using bacticks strings that we learn earlier, there is a potential security hole related to XSS (Cross-site scripting), that we learn how to prevent on the Security Section of this course.
+
+Similar to ```innerText``` awe can use **```innerHTML```** as a setter, using strings instead of regular document.createElement, with ```innerHTML``` you can create tags, also we can interpolate values easily, and if its a valid HTML the browser will take it and parse it into all the items:
+
+Example:  
+we have the following HTML and we want to add an image with source and description, that will be inside a ```div``` with a class or wrapper:
+
+```HTML
+<article class="item">
+
+</article>
+```
+In javascript:
+
+```js
+const item = document.querySelector('.item');
+
+const src = `https://picsum.photos/200`;
+const desc = `cute pup`;
+
+const myHTML = `
+<div class="wrapper">
+  <h2>${desc}</h2>
+  <img src="${src}" alt="${desc}"/>
+</div>
+`;
+```
+
+But these are not elements are strings, you can check by using
+```typeof myHTML```, meaning that we can't add classes, it only becomes an element by dump it into the DOM by setting the ```innerHTML``` like:
+
+```js
+item.innerHTML = myHTML;
+```
+Now you can add classes or whatever you want.
+
+There is a ways you can do the same without ```innerHTML``` is:
+  - ```document.createRange().createContextualFragments()```
+
+using this, the HTML will not be visible in the page, but you will be able to select it using javascript.  
+So lets turn **myHTML** from the example before into a DOM element using ```document.createRange()```
+
+```js
+const myFragment = document.createRange().createContextualFragment(myHTML);
+```
+
+now we can add the fragment into the page by using ```append```, ```appendChild``` or ```insertAdjacent```:
+
+```js
+document.body.appendChild(myFragment);
+```
+
+<br>
+
+<a name="TraversingAndRemovingNodes"></a> 
+## **Traversing and removing nodes**
+
+
+
+
+
+
 
 
 <br>
