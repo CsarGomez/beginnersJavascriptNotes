@@ -418,16 +418,39 @@ document.body.appendChild(myFragment);
 <a name="TraversingAndRemovingNodes"></a> 
 ## **Traversing and removing nodes**
 
+We have some properties avaible for us to work with elements, like:
+  - ```el.children```
+  - ```el.firstElementChild```
+  - ```el.lastElementChild```
+  - ```el.previousElementSibling```
+  - ```el.nextElementSibling```
+  - ```el.parentElement```
 
+We also have these properties for nodes:
+  - ```el.childNodes```
+  - ```el.firstChild```
+  - ```el.lastChild```
+  - ```el.previousSibling```
+  - ```el.nextSibling```
+  - ```el.parentNode```
 
+> **Note:** the word ```el``` means Element
 
+you can remove by using ```remove()```, for example: lets create a paragraph, turn into and element, added to the page and then remove it.
 
+```js
+const p = document.createElement('p');
+p.textContent = 'i will be removed';
+document.body.appendChild(p);
 
+p.remove();
+```
 
+this will remove the paragraph from the page, but still able in memory, so you can simply added again by using ```appendChild``` or other way to add the element into the page.
 
 <br>
 
 ---
 back to [Table of Content](tableOfContent.md)  
 previous [The Tricky Bits](03_bits.md)  
-next []()
+next [Events](05_events.md)
