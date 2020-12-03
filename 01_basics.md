@@ -1,5 +1,5 @@
 <a name="basics.md"></a>
-# **The Basics**
+# **Module #1 - The Basics**
 ---
 
 <a name="loading"></a>

@@ -39,3 +39,7 @@
   * [Creating HTML](04_dom.md#CreatingHTML)
   * [HTML from strings and XSS](04_dom.md#HTMLFromStringsAndXSS)
   * [Traversing and removing nodes](04_dom.md#TraversingAndRemovingNodes)
+
+## **Module #5 [Evetns](04_events.md)**
+  * [Event listener](05_events.md#eventListener)
+  * [Targets, bubbling, propagation and capture](05_events.md#TargetsBubblingPropagationCapture)

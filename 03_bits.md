@@ -1,5 +1,5 @@
 <a name="bits"></a>  
-# **The tricky bits**
+# **Module #3 - The tricky bits**
 ---
 
 <a name="scope"></a> 

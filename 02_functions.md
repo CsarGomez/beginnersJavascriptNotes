@@ -1,6 +1,6 @@
 
 <a name="functions"></a>  
-# **Functions**
+# **Module #2 - Functions**
 ---
 
 <a name="buildFunctions"></a>

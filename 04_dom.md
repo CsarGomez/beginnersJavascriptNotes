@@ -1,5 +1,5 @@
 <a name="dom"></a>
-# **The DOM**
+# **Module #4 - The DOM**
 ---
 
 Javascript can be run in many types of environment, can be run in the browser, in the server, in robots, the most popular is way to introduce is through the web browser.  
@@ -253,7 +253,7 @@ function toggleRound() {
 pic.addEventListener('click', toggleRound)
 ```
 
-You can find the example [here](https://codepen.io/cgope/pen/eYzLEOw?editors=0110)
+>You can find the example [here](https://codepen.io/cgope/pen/eYzLEOw?editors=0110)
 
 <br>
 
