@@ -185,5 +185,5 @@ the following image should explain this:
 
 ---
 back to [Table of Content](tableOfContent.md)  
-previous [The DOM](03_dom.md)  
+previous [The DOM](04_dom.md)  
 next []()
