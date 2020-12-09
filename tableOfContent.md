@@ -44,3 +44,4 @@
   * [Event listener](05_events.md#eventListener)
   * [Targets, bubbling, propagation and capture](05_events.md#TargetsBubblingPropagationCapture)
   * [Prevent default and form events](05_events.md#PreventDefaultAndFormEvents)
+  * [Accesibility gotchas and keyboard codes](05_events.md#AccesibilityGotchasAndKeyboardCodes)

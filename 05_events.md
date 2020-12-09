@@ -225,6 +225,17 @@ The ```preventDefault()``` will help us to stop the default action, so if the na
 
 > you can see the example [here](https://codepen.io/cgope/pen/eYdJWeb?editors=0010)
 
+<br>
+
+<a name="AccesibilityGotchasAndKeyboardCodes"></a> 
+## **Accesibility gotchas and keyboard codes**
+
+The differences between buttons and links:
+Buttons are to be used for actions tha happend inside the application.  
+Links are used to change the page.  
+that means that links are not to be used where buttons are.
+
+Every key has a code, and the event have a bounch of information theres a Wes Bos website called [keycode.info](https://www.keycode.info) where you can literally just press on any key to get meta information about that key.
 
 
 
