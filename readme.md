@@ -13,8 +13,7 @@
   This are my personal notes about the Beginners Javascript   course from Wes Bos, please feel free to PR, clone, fork or  whatever you want to do.
 </p>
 
+<h2 align = center>[Table of Content](tableOfContent.md)</h2>
 ---
-## <center>[Table of Content](tableOfContent.md)</center>
-
 ### **Note:** 
 Beginners Javascript course notes are not totally updated, i'm updating a soon as im completing the course modules.

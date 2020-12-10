@@ -40,7 +40,7 @@
   * [HTML from strings and XSS](04_dom.md#HTMLFromStringsAndXSS)
   * [Traversing and removing nodes](04_dom.md#TraversingAndRemovingNodes)
 
-## **Module #5 [Evetns](04_events.md)**
+## **Module #5 [Events](04_events.md)**
   * [Event listener](05_events.md#eventListener)
   * [Targets, bubbling, propagation and capture](05_events.md#TargetsBubblingPropagationCapture)
   * [Prevent default and form events](05_events.md#PreventDefaultAndFormEvents)
