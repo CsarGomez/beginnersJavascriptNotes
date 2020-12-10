@@ -3,20 +3,19 @@
 <p align="center">
   <img src="https://res.cloudinary.com/wesbos/image/upload/v1574876851/BJS/BJS-Social-Share.png" width = 400px>
 </p>
+<div align="center">
 
-### <center>Course link: [Beginners Javascript](beginnersjavascript.com)</center>
-### <center>GitHub link: [Repository](https://github.com/wesbos/beginner-javascript)</center>
-### <center>Author: [Wes Bos](wesbos.com)</center>
+### Course link: [Beginners Javascript](beginnersjavascript.com)
+### GitHub link: [Repository](https://github.com/wesbos/beginner-javascript)
+### Author: [Wes Bos](wesbos.com)
+## [Table of Content](tableOfContent.md)
+</div>
 
-## <center>[Table of Content](tableOfContent.md)</center>
 ---
 
 <p align = center>
   This are my personal notes about the Beginners Javascript   course from Wes Bos, please feel free to PR, clone, fork or  whatever you want to do.
 </p>
-
----
-
-## [Table of Content](tableOfContent.md)
-### **Note:** 
+<p align = center>
 Beginners Javascript course notes are not totally updated, i'm updating a soon as im completing the course modules.
+</p>
