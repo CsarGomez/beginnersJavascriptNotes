@@ -45,3 +45,9 @@
   * [Targets, bubbling, propagation and capture](05_events.md#TargetsBubblingPropagationCapture)
   * [Prevent default and form events](05_events.md#PreventDefaultAndFormEvents)
   * [Accesibility gotchas and keyboard codes](05_events.md#AccesibilityGotchasAndKeyboardCodes)
+
+## **Module #6 [Serious practice exercises](06_SeriousPractice.md)**
+  * [Etch-a-sketch](06_SeriousPractice.md#Etch-a-sketch)
+  * [Click Outside Modal](06_SeriousPractice.md#Click-Outside-Modal)
+  * [Scroll Events and Intersection Observer](06_SeriousPractice.md#ScrollEvents-IntersectionObserver)
+  * [Tabs](06_SeriousPractice.md#tabs)

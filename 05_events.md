@@ -244,4 +244,4 @@ Every key has a code, and the event have a bounch of information theres a Wes Bo
 ---
 back to [Table of Content](tableOfContent.md)  
 previous [The DOM](04_dom.md)  
-next []()
+next [Serious practice exercises](06_SeriousPractice.md)
