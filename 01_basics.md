@@ -3,7 +3,7 @@
 ---
 
 <a name="loading"></a>
-## **Loading and running javascript**
+## **LOADING AND RUNNING JAVASCRIPT**
 
 add `<script>` tag just before the `</body>` tag.
 
@@ -17,7 +17,7 @@ add `<script>` tag just before the `</body>` tag.
 <br>
 
 <a name="variables"></a>
-## **Variables**
+## **VARIABLES**
 
 - **var** (_value can be updated_)
 - **let** (_value can be updated_)
@@ -30,7 +30,7 @@ const cool = true;
 ```
 
 <a name="typpeOfVariables"></a>
-## Types of variables:
+## **TYPE OF VARIABLES:**
 
 <a name="strings"></a>
 - ### String: 

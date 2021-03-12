@@ -3,7 +3,7 @@
 ---
 
 <a name="scope"></a> 
-## **Scope**
+## **SCOPE**
   <a name="globalVariables"></a>
   - ### Global variables  
     when variable is created a variable not inside a function,  not inside a module, not inside if statement, you can access   them from any other javascript that's running on the page   via script tag or console.
@@ -86,7 +86,7 @@
 <br>
 
 <a name="hoisting"></a> 
-## **Hoisting**
+## **HOISTING**
   Hoisting allows you to access functions and variables before they have been created, there´s two things in javascript that are hoited:
   - functions declarations
 
@@ -118,7 +118,7 @@
 <br>
 
 <a name="closures"></a> 
-  ## **Closures**
+  ## **CLOSURES**
   Closures are the ability for a child function or inner function (child scope) to access variables from a higher level scope (parent scope) even after the functions have been called or closed  
 
   ```js

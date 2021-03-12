@@ -2,9 +2,9 @@
 # **Module #6 - Serious practice exercises**
 ---
 <a name="Etch-a-sketch"></a> 
-## **Etch-a-sketch**
+## **ETCH-A-SKETCH**
 
-Example [here](https://codepen.io/cgope/pen/yLaVayG)
+>Example [here](https://codepen.io/cgope/pen/yLaVayG)
 
 We need to select all elements on the page.
 The canvas is the element and the place were we will drawing is called context (ctx), then we call the getContext method which in this case is 2d
@@ -106,9 +106,9 @@ shakeButton.addEventListener('click', clearCanvas);
 <br>
 
 <a name="Click-Outside-Modal"></a> 
-## **Click Outside Modal**
+## **CLICK OUTSIDE MODAL**
 
-Example [here](https://codepen.io/cgope/pen/vYypLMO)
+>Example [here](https://codepen.io/cgope/pen/vYypLMO)
 
 The main goal of this exercise is to know about the clicking outside, the example is about we have some cards which contains an image, a title and a button, so if you click on the button a higher version of the image will be displayed, then if you click outside it will close it and return to the main cards.
 
@@ -192,9 +192,9 @@ you can find the event key for whatever key you want you can go to [keycode](htt
 <br>
 
 <a name="ScrollEvents-IntersectionObserver"></a> 
-## **Scroll Events and Intersection Observer**
+## **SCROLL EVENTS AND INTERSECTION OBSERVER**
 
-Example [here](https://codepen.io/cgope/pen/vYypLMO)
+>Example [here](https://codepen.io/cgope/pen/vYypLMO)
 
 In the example we work with Terms and Conditions, maybe scroll event isn't the best way to aproach this because you will have to deal offsets, margin, padding, heights, instead of scroll events we will use _Intersection Observer_
 
@@ -245,9 +245,9 @@ ob.observe(terms.lastElementChild);
 <br>
 
 <a name="tabs"></a> 
-## **Tabs**
+## **TABS**
 
-Example [here](https://codepen.io/cgope/pen/NWbBbpQ)
+>Example [here](https://codepen.io/cgope/pen/NWbBbpQ)
 
 This example contains roles and aria labels in the HTML, this is important to make your tabs accessible and your content will be easly read by search engine.  
 We will need the tabs, buttons and panels:
@@ -318,4 +318,4 @@ after that you can take each panel and get the attirube from the aria lebel to m
 ---
 back to [Table of Content](tableOfContent.md)  
 previous [Events](05_events.md)  
-next []()
+next [Logic and flow control](07_LogicAndFlowControl.md)

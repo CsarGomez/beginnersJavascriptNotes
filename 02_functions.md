@@ -4,7 +4,7 @@
 ---
 
 <a name="buildFunctions"></a>
-## **Build functions**
+## **BUILD FUNCTIONS**
   Functions can do anything, they´re group togeher set of instructions, often taking in values, doing some work and then returning a new value or set of values.  
 
   Functions are create or defined and then they later can be call.
@@ -32,8 +32,8 @@
 <br>
 
 <a name="parametersArguments"></a>
-## **Parameters and arguments**
-  ![parameters and arguments](function-definition.jpg)
+## **PARAMETERS AND ARGUMENTS**
+  ![parameters and arguments](./img/function-definition.jpg)
   
   function using parameters and arguments
 
@@ -91,7 +91,7 @@
 <br>
 
 <a name="waysFunctions"></a>
-## **Different ways to declare functions**
+## **DIFFERENT WAYS TO DECLARE FUNCTIONS**
   
   Javascript functions are values in themself that can be stored into variables or can be passed into other fucntions.
 
@@ -240,7 +240,7 @@
 <br>
 
   <a name="callback"></a>
-  ## **Callback functions**
+  ## **CALLBACK FUNCTIONS**
 
   - **click callback function**
 

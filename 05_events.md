@@ -2,7 +2,7 @@
 # **Module #5 - Events**
 ---
 <a name="eventListener"></a> 
-## **Event listener**
+## **EVENT LISTENER**
 
 things on the DOM can emit events, when they're clicked, hovered, dragged, etc.
 We can use event listener to listen for when these events happen and do something, react to them.
@@ -94,7 +94,7 @@ buyButtons.forEach(attachListenerToButtons);
 <br>
 
 <a name="TargetsBubblingPropagationCapture"></a> 
-## **Targets, bubbling, propagation and capture**
+## **TARGETS, BUBBLING, PROPAGATION AND CAPTURE**
 Continue with the last example "buy buttons"
 
 ```js
@@ -176,14 +176,14 @@ event.stopPropagation()
 The events can be the oposite, that is called **_Capture_** which is the opositive to propagation
 the following image should explain this:
 
-![Propagation, capture, target](bubblingCapture.png)
+![Propagation, capture, target](./img/bubblingCapture.png)
 
 > you can click [here](https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener) for more information about bubbling and capture
 
 <br>
 
 <a name="PreventDefaultAndFormEvents"></a> 
-## **Prevent default and form events**
+## **PREVENT DEFAULT AND FORM EVENTS**
 
 There's a couple elements in HTML that have default functionality when they're clicked, for example a submit button, and we can stop the default action by using: 
 
@@ -228,7 +228,7 @@ The ```preventDefault()``` will help us to stop the default action, so if the na
 <br>
 
 <a name="AccesibilityGotchasAndKeyboardCodes"></a> 
-## **Accesibility gotchas and keyboard codes**
+## **ACCESIBILITY GOTCHAS AND KEYBOARD CODES**
 
 The differences between buttons and links:
 Buttons are to be used for actions tha happend inside the application.  

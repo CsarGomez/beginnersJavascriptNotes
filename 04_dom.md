@@ -23,7 +23,7 @@ The browser turns your html into something that is called __DOM__ (_Document Obj
 <br>
 
 <a name="selectElements"></a> 
-## **Selecting elements**
+## **SELECTING ELEMENTS**
 When you need to be able to access the specific elemts on the page, like H2 tag (```<h2>```), a div tag (```<div>```), a buttton (```<button>```) or an image (```<img>```) you need to select hem first, and then you can add content, change content, listen for cliecks, you can do anything you want with it.
 There are two main ways to select elements _QuerySelector_ and _QuerySelectorAll_ both take one argument and that is the CSS selector.
 
@@ -91,7 +91,7 @@ We can also have old to select elements from the DOM like:
 <br>
 
 <a name="elementPropertiesAndMethods"></a> 
-## **Element properties and methods**
+## **ELEMENT PROPERTIES AND METHODS**
 
 ```html
 <h2>I am a header</h2>
@@ -203,7 +203,7 @@ this is how many pizzas i ate! 🍕 -------> node
 <br>
 
 <a name="workingWithClasses"></a> 
-## **Working with classes**
+## **WORKING WITH CLASES**
 
 When you select an element there is a classList attributes on that, there are some mothods for getting all of the classes as well as removing and adding multiple classes.
 
@@ -258,7 +258,7 @@ pic.addEventListener('click', toggleRound)
 <br>
 
 <a name="BuildInAndCustomDataAttributes"></a> 
-## **Build in and custom data attributes**
+## **BUILD IN AND CUSTOM DATA ATTRIBUTES**
 
 Attributes are anything provided to an element as an additional information, like classes, source, alternative, etc..
 
@@ -308,7 +308,7 @@ console.log(custom.dataset)
 <br>
 
 <a name="CreatingHTML"></a> 
-## **Creating HTML**
+## **CREATING HTML**
 
 The man way to create HTML in javascript is ```document.createElement``` but this only create the element (in memory) and dont put it on the page.  
 Also you can't add classes or attributes, you have to do it in the way we learn before with ```textContent```.
@@ -359,7 +359,7 @@ myDiv.insertAdjacentElement('afterbegin',heading);
 <br>
 
 <a name="HTMLFromStringsAndXSS"></a> 
-## **HTML from strings and XSS**
+## **HTML FROM STRINGS AND XSS**
 
 This is a different approach using bacticks strings that we learn earlier, there is a potential security hole related to XSS (Cross-site scripting), that we learn how to prevent on the Security Section of this course.
 
@@ -416,7 +416,7 @@ document.body.appendChild(myFragment);
 <br>
 
 <a name="TraversingAndRemovingNodes"></a> 
-## **Traversing and removing nodes**
+## **TRAVERSING AND REMOVING NODES**
 
 We have some properties avaible for us to work with elements, like:
   - ```el.children```
