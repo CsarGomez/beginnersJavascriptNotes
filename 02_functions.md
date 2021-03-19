@@ -1,272 +1,297 @@
+<a name="functions"></a>
 
-<a name="functions"></a>  
 # **Module #2 - Functions**
+
 ---
 
 <a name="buildFunctions"></a>
+
 ## **BUILD FUNCTIONS**
-  Functions can do anything, they´re group togeher set of instructions, often taking in values, doing some work and then returning a new value or set of values.  
 
-  Functions are create or defined and then they later can be call.
+Functions can do anything, they´re group together set of instructions, often taking in values, doing some work and then returning a new value or set of values.
 
-  the function calculate bill will calculate what the bill would be regarding how much the tip was and how much the tax is.
+Functions are create or defined and then they later can be call.
 
+the function calculate bill will calculate what the bill would be regarding how much the tip was and how much the tax is.
 
-  ```js
-  // create or defined a function
-  function calculateBill() {
-    const total = 100 * 1.13;
-    return total;
-  }
+```js
+// create or defined a function
+function calculateBill() {
+  const total = 100 * 1.13;
+  return total;
+}
 
-  // call a function
-  calculateBill();
-  ```
+// call a function
+calculateBill();
+```
 
-  the total is not available out of the function, because we need to capture the return value of the function into a variable:
+the total is not available out of the function, because we need to capture the return value of the function into a variable:
 
-  ```js
-  const myTotal = calculateBill();
-  ```
+```js
+const myTotal = calculateBill();
+```
 
 <br>
 
 <a name="parametersArguments"></a>
+
 ## **PARAMETERS AND ARGUMENTS**
-  ![parameters and arguments](./img/function-definition.jpg)
-  
-  function using parameters and arguments
 
-  ```js
-  function calculateBill(billAmount, taxRate){
-    const total = billAmount * (1 + taxRate);
-    return total
-  }
+![parameters and arguments](./img/function-definition.jpg)
 
-  const myTotal = calculateBill(500, 0.3);
-  ```
-  you can pass expresions to a function
+function using parameters and arguments
 
-  ```js
-  const myTotal = calculateBill(20 + 20 + 30 + 20, 0.3);
-  ```
+```js
+function calculateBill(billAmount, taxRate) {
+  const total = billAmount * (1 + taxRate);
+  return total;
+}
 
-  and also you can pass functions as arguments
+const myTotal = calculateBill(500, 0.3);
+```
 
-  ```js
-  function doctorize(firstName){
-    return `Dr. ${name}`;
-  }  
+you can pass expressions to a function
 
-  function yell(name){
-    return `Hey ${name.toUpperCase()}`;
-  }
+```js
+const myTotal = calculateBill(20 + 20 + 30 + 20, 0.3);
+```
 
-  yell(doctorize('Cesar'));
-  // return "Hey DR. CESAR"
-  ```
+and also you can pass functions as arguments
 
-  you can set default values to the parameters: 
+```js
+function doctorize(firstName) {
+  return `Dr. ${name}`;
+}
 
-  >taxRate = 0.13  
-  >tipRate = 0.15  
+function yell(name) {
+  return `Hey ${name.toUpperCase()}`;
+}
 
-  if no one pass the parameter taxRate and tipRate for calculateBill function it will take by default the 0.13 for tax rate and 0.15 for tip rate
+yell(doctorize("Cesar"));
+// return "Hey DR. CESAR"
+```
 
-  ```js
-  function calculateBill(billAmount, taxRate = 0.13, tipRate = 0.15){
-    const total = billAmount + billAmount * taxRate + billamount * tipRate;
-    return total
-  }
+you can set default values to the parameters:
 
-  calculateBill(100);
-  ```
+> taxRate = 0.13  
+> tipRate = 0.15
 
-  if you want to use only one of the defaul values, like tipRate but not taxRate
-  ```js
-  calculateBill(100, undefined, 0.2);
-  ```
-  the undefined will fallback to the defaul value of 0.13 for taxRate
+if no one pass the parameter taxRate and tipRate for calculateBill function it will take by default the 0.13 for tax rate and 0.15 for tip rate
+
+```js
+function calculateBill(billAmount, taxRate = 0.13, tipRate = 0.15) {
+  const total = billAmount + billAmount * taxRate + billAmount * tipRate;
+  return total;
+}
+
+calculateBill(100);
+```
+
+if you want to use only one of the default values, like tipRate but not taxRate
+
+```js
+calculateBill(100, undefined, 0.2);
+```
+
+the undefined will fallback to the default value of 0.13 for taxRate
 
 <br>
 
 <a name="waysFunctions"></a>
+
 ## **DIFFERENT WAYS TO DECLARE FUNCTIONS**
-  
-  Javascript functions are values in themself that can be stored into variables or can be passed into other fucntions.
 
-  there are different ways to declare functions
+Javascript functions are values in themselves that can be stored into variables or can be passed into other functions.
 
-  <a name="regular"></a> 
-  - ### Regular funcion declaration
+there are different ways to declare functions
 
-    ```js
-    function doctorize(firstName){
-      return `Dr. ${fistName};
-    }
-    ```
+<a name="regular"></a>
 
-  <a name="anon"></a>   
-  - ### Anonymous function 
-    is a fucntion without name 
+- ### Regular function declaration
 
-    ```js
-    function (firstName){
-      return `Dr. ${fistName};
-    }
-    ``` 
+  ```js
+  function doctorize(firstName){
+    return `Dr. ${fistName};
+  }
+  ```
 
-  <a name="expression"></a>   
-  - ### Function Expression 
-    is an anonymous function stored into a variable 
+<a name="anon"></a>
 
-    ```js
-    const doctorize = function (firstName){
-      return `Dr. ${fistName};
-    }
-    ```    
-    the difference between regular function declaration and function expression is how they operate on the hoisting
+- ### Anonymous function
 
-  <a name="arrow"></a>  
-  - ### Arrow Function  
-    are anon functions, always need to be sticky into a variable.
+  is a function without name
 
-    ```js
-    //regular fucntion:
-    function inchToCM(inches){
-      const cm = inches * 2.54;
-      return cm;
-    }
+  ```js
+  function (firstName){
+    return `Dr. ${fistName};
+  }
+  ```
 
-    //arrow function:
-    const inchesToCm = inches => inches * 2.54;
-    ```
+<a name="expression"></a>
 
-    other example:
+- ### Function Expression
 
-    ```js
-    //regular fucntion:
-    function add(a, b=3){
-      const total = a + b;
-      return total;
-    }
+  is an anonymous function stored into a variable
 
-    //arrow fucntion
-    const add = (a, b=3) => a + b;
-    ```
+  ```js
+  const doctorize = function (firstName){
+    return `Dr. ${fistName};
+  }
+  ```
 
-    you cannot delete the _()_ on _(a, b=3)_ becuase there are  more than one parameter.  
+  the difference between regular function declaration and function expression is how they operate on the hoisting
 
-  <a name="returnObject"></a>
-  - ### Returning an Object
+<a name="arrow"></a>
 
-    ```js
-    //regular fucntion:
-    function makeABaby(fisrName, lastName){
-      const baby = {
-        name: `${first} ${last}`,
-        age: 0
-      }
-      return baby;
-    }
+- ### Arrow Function
 
-    //arrow fucntion:
-    const makeABaby = (first, last) => {
-      return baby = {
-        name: `${first} ${last}`,
-        age: 0
-      }
-    }
+  are anon functions, always need to be sticky into a variable.
 
-    //arrow fucntion 2:
-    const makeABaby = (first, last) => ({ name: `${first} ${last}`, age: 0 });
-    ```
+  ```js
+  //regular function:
+  function inchToCM(inches) {
+    const cm = inches * 2.54;
+    return cm;
+  }
 
-  <a name="iife"></a>
-  - ### IIFE  
-    means Immediately Invoked Function Expression  
+  //arrow function:
+  const inchesToCm = (inches) => inches * 2.54;
+  ```
 
-      ```js
-      //anon function
-      function(){
-        console.log('Running the anon funciton');
-        return 'you are cool';
-      }
+  other example:
 
-      //you can run immediately by doing this:
-      (function(age){
-        console.log('Running the anon funciton');
-        return `you are cool and age ${age}`;
-      })(10);
-      ```
+  ```js
+  //regular function:
+  function add(a, b = 3) {
+    const total = a + b;
+    return total;
+  }
 
-  <a name="mothods"></a>
-  - ### Methods  
-      is a function that lives inside an object like:
+  //arrow function
+  const add = (a, b = 3) => a + b;
+  ```
 
-      ```js
-      console.log
-      ```  
+  you cannot delete the _()_ on _(a, b=3)_ because there are more than one parameter.
 
-      Log is the function that lives inside the console which is the Object  
-      we can create our own methods:
+<a name="returnObject"></a>
 
-      ```js
-      const wes = {
-        name: 'wes bos',
-        sayHi: function(){
-          return `Hey! wes`;
-        },
-      }
-      ```
+- ### Returning an Object
 
-      there is a shorthand for that
+  ```js
+  //regular function:
+  function makeABaby(fisrName, lastName) {
+    const baby = {
+      name: `${first} ${last}`,
+      age: 0,
+    };
+    return baby;
+  }
 
-      ```js
-      const wes = {
-        name: 'wes bos',
-        sayHi(){
-          return `Hey! wes`;
-        },
-      }
-      ```
+  //arrow function:
+  const makeABaby = (first, last) => {
+    return (baby = {
+      name: `${first} ${last}`,
+      age: 0,
+    });
+  };
 
-      and we can setup as an arrow function but you cannot access to the .this.
+  //arrow function 2:
+  const makeABaby = (first, last) => ({ name: `${first} ${last}`, age: 0 });
+  ```
 
-      ```js
-      sayHi() => `Hey! wes`;
-      ```
+<a name="iife"></a>
+
+- ### IIFE
+
+  means Immediately Invoked Function Expression
+
+  ```js
+  //anon function
+  function(){
+    console.log('Running the anon function');
+    return 'you are cool';
+  }
+
+  //you can run immediately by doing this:
+  (function(age){
+    console.log('Running the anon function');
+    return `you are cool and age ${age}`;
+  })(10);
+  ```
+
+<a name="methods"></a>
+
+- ### Methods
+
+  is a function that lives inside an object like:
+
+  ```js
+  console.log;
+  ```
+
+  Log is the function that lives inside the console which is the Object  
+   we can create our own methods:
+
+  ```js
+  const wes = {
+    name: "wes bos",
+    sayHi: function () {
+      return `Hey! wes`;
+    },
+  };
+  ```
+
+  there is a shorthand for that
+
+  ```js
+  const wes = {
+    name: "wes bos",
+    sayHi() {
+      return `Hey! wes`;
+    },
+  };
+  ```
+
+  and we can setup as an arrow function but you cannot access to the .this.
+
+  ```js
+  sayHi() => `Hey! wes`;
+  ```
 
 <br>
 
-  <a name="callback"></a>
-  ## **CALLBACK FUNCTIONS**
+<a name="callback"></a>
 
-  - **click callback function**
+## **CALLBACK FUNCTIONS**
 
-      ```js
-      const button = document.querySelector('.clickMe');
+- **click callback function**
 
-      function handleClick(){
-        console.log(great click);
-      }
+  ```js
+  const button = document.querySelector('.clickMe');
 
-      button.addEventListener('click', handleClick);
-      ```
-      is a function passed into other funcion, that then can  be   called by the browser at a later point.
+  function handleClick(){
+    console.log(great click);
+  }
 
-  - **timer callback function**
+  button.addEventListener('click', handleClick);
+  ```
 
-      ```js
-      setTimeout(function()){
-        console.log('Time to eat!');
-      }, 1000);
-      ```
-      this will run after 1000 ms 
+  is a function passed into other function, that then can be called by the browser at a later point.
+
+- **timer callback function**
+
+  ```js
+  setTimeout(function()){
+    console.log('Time to eat!');
+  }, 1000);
+  ```
+
+  this will run after 1000 ms
 
 <br>
 
 ---
+
 back to [Table of Content](tableOfContent.md)  
 previous [The basics](01_basics.md)  
 next [The Tricky Bits](03_bits.md)
