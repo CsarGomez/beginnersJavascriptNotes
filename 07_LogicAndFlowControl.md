@@ -304,7 +304,7 @@ const example1 = 10 * (5 - 2);
 
   Coercion is when we force a different type, like string, number or an object, etc, into a real boolean.
   As an example, if we have a variable called name and we assign a string value to that variable we can coercing into true or false using the bang operator.  
-  Then we can check if the variable has a value or not
+  Then we can check if the variable has a value or not  
   ![coercion](./img/coercion.png)
 
 <a name="ternaries"></a>
