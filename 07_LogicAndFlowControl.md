@@ -751,4 +751,4 @@ If an arrow up was typed then we need to subtract 1 to the y, we don't need to f
 
 back to [Table of Content](tableOfContent.md)  
 previous [Serious practice exercises](06_SeriousPractice.md)  
-next
+next [Data types](08_DataTypes.md)
