@@ -101,3 +101,12 @@
 - [Array cardio - static methods](08_DataTypes.md#staticMethods)
 - [Array cardio - instance methods](08_DataTypes.md#instanceMethods)
 - [Array cardio - callback methods](08_DataTypes.md#instanceMethods)
+
+## **Module #9 [Getting Loopy](09_GettingLoopy.md)**
+
+- [Array .forEach](09_GettingLoopy.md#forEach)
+- [Mapping](09_GettingLoopy.md#mapping)
+- [Filter, find and higher order functions](09_GettingLoopy.md#filterFindHigherOrderFunctions)
+- [Reduce](09_GettingLoopy.md#reduce)
+- [Reduce exercise](09_GettingLoopy.md#reduceExercise)
+- [For, for in, for of and while loops](09_GettingLoopy.md#forForInForOfWhileLoops)

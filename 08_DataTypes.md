@@ -899,5 +899,5 @@ const feedback = [
 ---
 
 back to [Table of Content](tableOfContent.md)  
-previous [Serious practice exercises](07_LogicAndFlowControl.md)  
-next [Getting loopy]()
+previous [Logic and flow control](07_LogicAndFlowControl.md)  
+next [Getting loopy](09_GettingLoopy.md)
