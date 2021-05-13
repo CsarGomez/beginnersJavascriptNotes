@@ -110,3 +110,5 @@
 - [Reduce](09_GettingLoopy.md#reduce)
 - [Reduce exercise](09_GettingLoopy.md#reduceExercise)
 - [For, for in, for of and while loops](09_GettingLoopy.md#forForInForOfWhileLoops)
+
+## **Module #10 [Harder practice exercises](10_HarderPracticeExercises.md)**

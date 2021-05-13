@@ -1,4 +1,4 @@
-<a name="LogicAndFlowControl"></a>
+<a name="GettingLoopy"></a>
 
 # **Module #8 - Data types**
 
@@ -440,4 +440,4 @@ After that we need to convert the text into lowercase, and start counting.
 
 back to [Table of Content](tableOfContent.md)  
 previous [Data Types](08_DataTypes.md)  
-next [Harder Practice Exercises](09_GettingLoopy.md)
+next [Harder Practice Exercises](10_HarderPracticeExercises.md)

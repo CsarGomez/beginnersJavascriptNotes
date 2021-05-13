@@ -1,4 +1,4 @@
-<a name="LogicAndFlowControl"></a>
+<a name="DataTypes"></a>
 
 # **Module #8 - Data types**
 
@@ -791,9 +791,9 @@ const feedback = [
   - 1. Check if there is at least of 5 units of one type of meat with some()
 
     ```js
-    const isThereEnoughOfAtLeastOneMeat = Object.values(
-      meats
-    ).some((meatValue) => (meatValue) => 5);
+    const isThereEnoughOfAtLeastOneMeat = Object.values(meats).some(
+      (meatValue) => (meatValue) => 5
+    );
 
     console.log(isThereEnoughOfAtLeastOneMeat);
     ```
@@ -801,9 +801,9 @@ const feedback = [
   - 2. Make sure we have at least of 3 units of every meat with every()
 
     ```js
-    const isThereEnoughOfEveryMeat = Object.values(
-      meats
-    ).every((meatValue) => (meatValue) => 3);
+    const isThereEnoughOfEveryMeat = Object.values(meats).every(
+      (meatValue) => (meatValue) => 3
+    );
 
     console.log(isThereEnoughOfEveryMeat);
     ```
