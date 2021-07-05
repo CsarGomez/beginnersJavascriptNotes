@@ -112,3 +112,9 @@
 - [For, for in, for of and while loops](09_GettingLoopy.md#forForInForOfWhileLoops)
 
 ## **Module #10 [Harder practice exercises](10_HarderPracticeExercises.md)**
+
+- [Face detection and censorship](10_HarderPracticeExercises.md#FaceDetectionAndCensorship)
+- [Sarcastic text generator](10_HarderPracticeExercises.md#SarcasticTextGenerator)
+- [Shopping from with custom events, delegation and local storage](10_HarderPracticeExercises.md#ShoppingFromCustomEventsDelegationLocalStorage)
+- [Building a gallery exercise](10_HarderPracticeExercises.md#BuildingGalleryExercise)
+- [Building a slider](10_HarderPracticeExercises.md#BuildingSlider)
