@@ -119,7 +119,7 @@
 - [Building a gallery exercise](10_HarderPracticeExercises.md#BuildingGalleryExercise)
 - [Building a slider](10_HarderPracticeExercises.md#BuildingSlider)
 
-## **Module #11 [Prototypes, 'this', 'new', and inheritance](11_Prototypes.md)**
+## **Module #11 [Prototypes, 'this', 'new', and inheritance](11_Prototype.md)**
 
 - [The new keyword](Prototypes.md#TheNewKeyword)
 - [The this keyword](Prototypes.md#TheThisKeyword)
