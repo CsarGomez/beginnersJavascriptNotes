@@ -35,3 +35,11 @@ Example [here](https://codepen.io/cgope/pen/yLbNWBO)
 ## **BUILDING A SLIDER**
 
 Example [here](https://codepen.io/cgope/details/KKmVavv)
+
+<br>
+
+---
+
+back to [Table of Content](tableOfContent.md)  
+previous [Getting loopy](09_GettingLoopy.md)  
+next [Prototypes, 'this', 'new', and inheritance](11_Prototype.md)

@@ -118,3 +118,12 @@
 - [Shopping from with custom events, delegation and local storage](10_HarderPracticeExercises.md#ShoppingFromCustomEventsDelegationLocalStorage)
 - [Building a gallery exercise](10_HarderPracticeExercises.md#BuildingGalleryExercise)
 - [Building a slider](10_HarderPracticeExercises.md#BuildingSlider)
+
+## **Module #11 [Prototypes, 'this', 'new', and inheritance](11_Prototypes.md)**
+
+- [The new keyword](Prototypes.md#TheNewKeyword)
+- [The this keyword](Prototypes.md#TheThisKeyword)
+- [Prototype refactor of the gallery exercise](Prototypes.md#PrototypeRefactorOfTheGalleryExercise)
+- [Prototypes and prototypal inheritance](Prototypes.md#PrototypesAndPrototypalInheritance)
+- [Prototype refactor of the slider exercise](Prototypes.md#PrototypeRefactorOfTheSliderExercise)
+- [Bind, call and apply](Prototypes.md#BindCallAndApply)
