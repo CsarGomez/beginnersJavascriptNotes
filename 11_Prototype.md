@@ -1,4 +1,4 @@
-<a name="Prototypes"></a>
+<a name="Prototype"></a>
 
 # **Module #11 - Prototypes, 'this', 'new', and inheritance**
 
