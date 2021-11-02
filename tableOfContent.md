@@ -121,9 +121,9 @@
 
 ## **Module #11 [Prototypes, 'this', 'new', and inheritance](11_Prototype.md)**
 
-- [The new keyword](Prototypes.md#TheNewKeyword)
-- [The this keyword](Prototypes.md#TheThisKeyword)
-- [Prototype refactor of the gallery exercise](Prototypes.md#PrototypeRefactorOfTheGalleryExercise)
-- [Prototypes and prototypal inheritance](Prototypes.md#PrototypesAndPrototypalInheritance)
-- [Prototype refactor of the slider exercise](Prototypes.md#PrototypeRefactorOfTheSliderExercise)
-- [Bind, call and apply](Prototypes.md#BindCallAndApply)
+- [The new keyword](11_Prototype.md#TheNewKeyword)
+- [The this keyword](11_Prototype.md#TheThisKeyword)
+- [Prototype refactor of the gallery exercise](11_Prototype.md#PrototypeRefactorOfTheGalleryExercise)
+- [Prototypes and prototypal inheritance](11_Prototype.md#PrototypesAndPrototypalInheritance)
+- [Prototype refactor of the slider exercise](11_Prototype.md#PrototypeRefactorOfTheSliderExercise)
+- [Bind, call and apply](11_Prototype.md#BindCallAndApply)
