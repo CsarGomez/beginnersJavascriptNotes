@@ -525,14 +525,14 @@ function makePizza(toppings){
   ```
 
 <br>
-<a name="Async-await prompt UI"></a>
+<a name="AsyncAwaitPromptUI"></a>
 
 ## **ASYNC AWAIT PROMPT UI**
 
 > CodePen example [here](https://codepen.io/cgope/pen/KKvZbzw)
 
 <br>
-<a name="Async-await type UI"></a>
+<a name="AsyncAwaitTypeUI"></a>
 
 ## **ASYNC AWAIT TYPE UI**
 

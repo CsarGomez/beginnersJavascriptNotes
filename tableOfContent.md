@@ -132,3 +132,9 @@
 
 - [The event loop and callback hell](12_AdvancedFlowControl.md#TheEventLoopAndCallbackHell)
 - [Promises](12_AdvancedFlowControl.md#Promises)
+- [Promises Error Handling](12_AdvancedFlowControl.md#PromisesErrorHandling)
+- [Refactoring callback hell to promise](12_AdvancedFlowControl.md#EventLoopCallbackHellRefactor)
+- [Async Await](12_AdvancedFlowControl.md#AsyncAwait)
+- [Async Await Error Handling](12_AdvancedFlowControl.md#AsyncAwaitErrorHandling)
+- [Async Await Prompt UI](12_AdvancedFlowControl.md#AsyncAwaitPromptUI)
+- [Async Await Typer UI](12_AdvancedFlowControl.md#AsyncAwaitTypeUI)
