@@ -127,3 +127,8 @@
 - [Prototypes and prototypal inheritance](11_Prototype.md#PrototypesAndPrototypalInheritance)
 - [Prototype refactor of the slider exercise](11_Prototype.md#PrototypeRefactorOfTheSliderExercise)
 - [Bind, call and apply](11_Prototype.md#BindCallAndApply)
+
+## **Module #12 [Advanced flow control](12_AdvancedFlowControl.md)**
+
+- [The event loop and callback hell](12_AdvancedFlowControl.md#TheEventLoopAndCallbackHell)
+- [Promises](12_AdvancedFlowControl.md#Promises)
