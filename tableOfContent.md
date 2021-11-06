@@ -140,3 +140,8 @@
 - [Async Await Typer UI](12_AdvancedFlowControl.md#AsyncAwaitTypeUI)
 
 ## **Module #13 [Ajax and fetching data](13_AjaxAndFetchingData.md)**
+
+- [Ajax and API](13_AjaxAndFetchingData.md#AjaxAndAPI)
+- [CORS and recipes](13_AjaxAndFetchingData.md#CorsAndRecipes)
+- [Dad jokes](13_AjaxAndFetchingData.md#dadJokes)
+- [Currency converter](13_AjaxAndFetchingData.md#CurrencyConverter)
