@@ -146,7 +146,7 @@
 - [Dad jokes](13_AjaxAndFetchingData.md#dadJokes)
 - [Currency converter](13_AjaxAndFetchingData.md#CurrencyConverter)
 
-## **Module #14 [ES Modules and structuring Larger Apps](14_ESModulesAndAtructuringLargerApps.md)**
+## **Module #14 [ES Modules and structuring Larger Apps](14_ESModulesAndStructuringLargerApps.md)**
 
 - [Modules](14_ESModulesAndStructuringLargerApps.md#Modules)
 - [UsingOpenSourceNPMPackages](14_ESModulesAndStructuringLargerApps.md#UsingOpenSourceNPMPackages)
